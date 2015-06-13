@@ -1,0 +1,10 @@
+[core]
+  editor = vim
+  autocrlf = input
+  excludesfile = ~/.gitignore_global
+[color]
+  ui = auto
+[alias]
+  lograph = log --graph --decorate --branches --tags --remotes
+  stashes = stash list --date=local
+
