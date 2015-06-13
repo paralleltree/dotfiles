@@ -4,4 +4,5 @@
 This repository includes settings below:
 
   * git
+  * vim
 
