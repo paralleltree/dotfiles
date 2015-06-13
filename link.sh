@@ -1,5 +1,11 @@
 #!/bin/sh
 
+if [ ! -e ~/.bashrc_local -a -e ~/.bashrc ]; then
+  mv ~/.bashrc ~/.bashrc_local
+fi
+
+ln -s ~/dotfiles/bash/bashrc ~/.bashrc
+
 ln -s ~/dotfiles/git/gitconfig ~/.gitconfig
 ln -s ~/dotfiles/git/gitignore_global ~/.gitignore_global
 
