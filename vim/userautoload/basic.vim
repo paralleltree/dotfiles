@@ -18,6 +18,7 @@ set noincsearch
 set ignorecase
 set smartcase
 
+set backspace=indent,eol,start
 set expandtab
 set tabstop=2
 set shiftwidth=2
