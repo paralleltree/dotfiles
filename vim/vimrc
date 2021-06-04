@@ -7,5 +7,7 @@ augroup restore_t_Co
   autocmd VimLeave * let &t_Co = s:saved_t_Co
 augroup END
 
+let mapleader = "\<Space>"
+
 set runtimepath+=~/.vim
 runtime! userautoload/*.vim
