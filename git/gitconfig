@@ -7,4 +7,8 @@
 [alias]
   lograph = log --graph --decorate --branches --tags --remotes
   stashes = stash list --date=local
-
+[user]
+  email = paralleltree@outlook.com
+  name = Paralleltree
+[include]
+  path = .gitconfig.local
