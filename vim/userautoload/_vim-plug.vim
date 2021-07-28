@@ -6,6 +6,8 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
+Plug 'w0ng/vim-hybrid'
+
 Plug 'tpope/vim-endwise'
 Plug 'Townk/vim-autoclose'
 Plug 'tomtom/tcomment_vim'
