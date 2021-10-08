@@ -7,3 +7,6 @@ if [ -e ~/.bashrc_local ]; then
   source ~/.bashrc_local
 fi
 
+if [ -d "$HOME/.cargo" ]; then
+  . "$HOME/.cargo/env"
+fi
