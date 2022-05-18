@@ -1,0 +1,4 @@
+--colors=path:fg:190,220,255
+--colors=line:fg:128,128,128
+--colors=match:fg:240,199,116
+--colors=match:style:bold
